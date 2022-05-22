@@ -65,8 +65,9 @@ export const FlexGithub = styled.div`
     padding:0 var(--medium);
     color:grey;
     a{
-        margin:0 2px;
-        color:#2c2c2d;
+        margin:0 5px;
+        // color:#2c2c2d;
+        color:var(--white);
     }
 `
 
@@ -153,6 +154,7 @@ export const Footer = styled.footer`
     text-align:center;
     color:grey;
     a{
-        color:var(--colors-bars-3-hover);
+        // color:var(--colors-bars-3-hover);
+        color:var(--white);
     }
 `

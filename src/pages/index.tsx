@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import * as S  from './styles/index'
+import * as S  from '../styles/index'
 
 export default function Home() {
   return (
@@ -98,17 +98,17 @@ export default function Home() {
         <a href="#">Visite o meu site</a>
       </S.Button>
       <S.FlexGithub>
-        ou o meu<a href="#"> github</a>
+        ou o meu<a href="https://github.com/JoaoMaiaa"> github</a>
       </S.FlexGithub>
       <S.Info>
-        <Image width={150} height={120}  src={'/eu.jpg'} alt='' />
+        <Image width={170} height={140}  src={'/eu.jpg'} alt='' />
         <div>
           <h4>Desenvolvedor Frontend React</h4>
           <p>Técnico de informática</p>
         </div>
       </S.Info>   
       <S.Footer>
-        Feito por<a href="#"> João Maia</a>
+        Feito por<a href="https://github.com/JoaoMaiaa"> João Maia</a>
       </S.Footer>   
     </>      
   )
